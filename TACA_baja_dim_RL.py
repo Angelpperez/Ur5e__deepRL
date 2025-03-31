@@ -14,7 +14,7 @@ data = mujoco.MjData(model)
 
     # Frecuencias y amplitudes de movimiento para cada articulación
 frequencies = np.array([0.2, 0.2, 0.4, 0.3, 0.5, 0.1])  # Hz
-amplitudes = np.array([0.4, 0.3, 0.3, 0.11, -0.2, 1])  # Radianes
+amplitudes = np.array([0.4, 0.3, 0.2, 0.11, -0.2, 1])  # Radianes
 
 def main_script():
 
