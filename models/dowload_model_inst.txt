@@ -1,0 +1,4 @@
+git clone --depth 1 --filter=blob:none --sparse https://github.com/google-deepmind/mujoco_menagerie.git
+cd mujoco_menagerie
+git sparse-checkout set universal_robots_ur5e
+ls universal_robots_ur5e
