@@ -37,7 +37,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="models\dowload_model_inst.txt" />
-    <Content Include="requierements.txt" />
+    <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="models\" />
